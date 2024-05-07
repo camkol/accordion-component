@@ -19,11 +19,7 @@
 Users should be able to:
 
 - View the optimal layout for the app depending on their device's screen size
-<!-- - Add items with set quantity
-- Delete items from list
-- Click checkbox for packed items
-- Sort list by input order, description, and packed status
-- See the status of the list in the footer -->
+- Select question to answer one at a time.
 
 ### Screenshot
 
@@ -31,11 +27,15 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [View](https:///)
+- Live Site URL: [View](https://accordion-component2.netlify.app/)
 
 ## My process
 
--
+- The `App` component renders an `Accordion` component and passes an array of FAQ data as props.
+- The `Accordion` component iterates over the FAQ data array and renders an `AccordionItem` component for each FAQ entry.
+- Each `AccordionItem` component represents an FAQ item and manages its own state to control its open/close state.
+- Clicking on an accordion item toggles its open/close state, allowing users to expand or collapse the content.
+- The content of an open accordion item is rendered below its title when it is expanded, providing users with additional information.
 
 ### Built with
 
