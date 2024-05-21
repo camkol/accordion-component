@@ -42,6 +42,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Mobile-Responsive Design
+- Flexbox
 - JavaScript - Scripting language
 - [React](https://reactjs.org/) - JS library
 
